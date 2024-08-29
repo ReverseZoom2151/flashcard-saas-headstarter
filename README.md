@@ -21,17 +21,54 @@ Flashcard SaaS is a web application that allows users to generate flashcards fro
 
 ## Getting Started
 
+To get a local copy of this project up and running, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- Node.js (v16 or later)
+- npm or yarn
+- Firebase project set up
+
+### Installation
+
 To get started with Flashcard SaaS, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/flashcard-saas.git`
-2. Install dependencies: `npm install`
-3. Set up environment variables: Create a `.env.local` file and add your Clerk, Stripe, and Firebase configuration variables.
-4. Run the development server: `npm run dev`
-5. Open your browser and navigate to `http://localhost:3000` to view the application.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/flashcard-saas.git
+   cd flashcard-saas
+   
+2. Install dependencies: `npm install` or `yarn install`
+3. Set up Firebase:
+- Go to the Firebase console and create a new project.
+- Add a Firestore database.
+- Obtain your Firebase configuration object and replace the firebaseConfig object in firebase.js.
+4. Set up Clerk:
+- Go to the Clerk dashboard and create a new application.
+- Obtain your Clerk API keys and set them in the .env.local file.
+5. Set up Stripe:
+- Go to the Stripe dashboard and create a new account or use an existing one.
+- Obtain your Stripe API keys and set them in the .env.local file.
+6. Run the development server: `npm run dev`
+7. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## API Endpoints
+- POST /api/checkout_session: Create a Stripe Checkout session for the selected subscription plan.
+- GET /api/checkout_session?session_id={session_id}: Retrieve a Stripe Checkout session.
+- POST /api/generate: Generate flashcards from the input text using OpenAI API.
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature-name).
+- Commit your changes (git commit -m 'Add your feature').
+- Push to the branch (git push origin feature/your-feature-name).
+- Open a pull request.
 
 ## License
 

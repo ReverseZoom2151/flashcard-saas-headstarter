@@ -2,6 +2,11 @@
 
 Flashcard SaaS is a web application that allows users to generate flashcards from their text input. The application utilizes Clerk for user authentication, OpenAI's GPT-4 Omni model for flashcard generation, Stripe for payment processing, and Firebase Firestore for data storage.
 
+![Flashcard-Welcome](https://github.com/user-attachments/assets/0fa6639a-0f44-4cb6-92f5-76f321d3c48e)
+![Flashcard-Sign-in](https://github.com/user-attachments/assets/7b45d87f-b1d2-4672-b5d5-c63cbc689eb3)
+![Flashcard-Payment](https://github.com/user-attachments/assets/6ab32d02-71cf-45e0-9cb5-e337c5534629)
+![Flashcard-Generate](https://github.com/user-attachments/assets/ede54eb6-07a1-480a-9c75-99560629d4c7)
+
 ## Features
 
 - **User authentication:** Users can sign up and sign in to the application using Clerk.

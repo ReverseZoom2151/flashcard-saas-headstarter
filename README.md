@@ -1,37 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flashcard SaaS
+
+Flashcard SaaS is a web application that allows users to generate flashcards from their text input. The application utilizes Clerk for user authentication, OpenAI's GPT-4 Omni model for flashcard generation, Stripe for payment processing, and Firebase Firestore for data storage.
+
+## Features
+
+- User authentication: Users can sign up and sign in to the application using Clerk.
+- Flashcard generation: Users can input text and generate flashcards using OpenAI's GPT-4 Omni model.
+- Subscription system: Users can purchase a pro subscription for additional features using Stripe.
+- Data storage: User data, including flashcards, is stored in Firebase Firestore.
+- Responsive design: The application is built using Material-UI and is fully responsive, ensuring a seamless user experience on all devices.
+
+## Technologies Used
+
+- Next.js: A React framework for server-side rendering and generating static websites.
+- Clerk: A user authentication service that provides secure and customizable authentication flows.
+- OpenAI's GPT-4 Omni model: A large language model that can generate flashcards based on a given text input.
+- Stripe: A payment processing service that provides secure and easy-to-use payment processing for online businesses.
+- Firebase Firestore: A NoSQL cloud database that provides scalable and flexible data storage for web and mobile applications.
+- Material-UI: A popular React UI framework that provides a wide range of customizable components for building responsive and user-friendly interfaces.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Flashcard SaaS, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/your-username/flashcard-saas.git`
+2. Install dependencies: `npm install`
+3. Set up environment variables: Create a `.env.local` file and add your Clerk, Stripe, and Firebase configuration variables.
+4. Run the development server: `npm run dev`
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# flashcard-saas-headstarter
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

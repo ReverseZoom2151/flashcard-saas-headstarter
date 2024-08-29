@@ -4,20 +4,20 @@ Flashcard SaaS is a web application that allows users to generate flashcards fro
 
 ## Features
 
-- User authentication: Users can sign up and sign in to the application using Clerk.
-- Flashcard generation: Users can input text and generate flashcards using OpenAI's GPT-4 Omni model.
-- Subscription system: Users can purchase a pro subscription for additional features using Stripe.
-- Data storage: User data, including flashcards, is stored in Firebase Firestore.
-- Responsive design: The application is built using Material-UI and is fully responsive, ensuring a seamless user experience on all devices.
+- **User authentication:** Users can sign up and sign in to the application using Clerk.
+- **Flashcard generation:** Users can input text and generate flashcards using OpenAI's GPT-4 Omni model.
+- **Subscription system:** Users can purchase a pro subscription for additional features using Stripe.
+- **Data storage:** User data, including flashcards, is stored in Firebase Firestore.
+- **Responsive design:** The application is built using Material-UI and is fully responsive, ensuring a seamless user experience on all devices.
 
 ## Technologies Used
 
-- Next.js: A React framework for server-side rendering and generating static websites.
-- Clerk: A user authentication service that provides secure and customizable authentication flows.
-- OpenAI's GPT-4 Omni model: A large language model that can generate flashcards based on a given text input.
-- Stripe: A payment processing service that provides secure and easy-to-use payment processing for online businesses.
-- Firebase Firestore: A NoSQL cloud database that provides scalable and flexible data storage for web and mobile applications.
-- Material-UI: A popular React UI framework that provides a wide range of customizable components for building responsive and user-friendly interfaces.
+- **Next.js:** A React framework for server-side rendering and generating static websites.
+- **Clerk:** A user authentication service that provides secure and customizable authentication flows.
+- **OpenAI's GPT-4 Omni model:** A large language model that can generate flashcards based on a given text input.
+- **Stripe:** A payment processing service that provides secure and easy-to-use payment processing for online businesses.
+- **Firebase Firestore:** A NoSQL cloud database that provides scalable and flexible data storage for web and mobile applications.
+- **Material-UI:** A popular React UI framework that provides a wide range of customizable components for building responsive and user-friendly interfaces.
 
 ## Getting Started
 
@@ -27,9 +27,9 @@ To get a local copy of this project up and running, follow these steps:
 
 Ensure you have the following installed on your machine:
 
-- Node.js (v16 or later)
-- npm or yarn
-- Firebase project set up
+- **Node.js** (v16 or later)
+- **npm** or **yarn**
+- **Firebase** project set up
 
 ### Installation
 
@@ -56,9 +56,9 @@ To get started with Flashcard SaaS, follow these steps:
 7. Open your browser and navigate to `http://localhost:3000` to view the application.
 
 ## API Endpoints
-- POST /api/checkout_session: Create a Stripe Checkout session for the selected subscription plan.
-- GET /api/checkout_session?session_id={session_id}: Retrieve a Stripe Checkout session.
-- POST /api/generate: Generate flashcards from the input text using OpenAI API.
+- **POST /api/checkout_session:** Create a Stripe Checkout session for the selected subscription plan.
+- **GET /api/checkout_session?session_id={session_id}:** Retrieve a Stripe Checkout session.
+- **POST /api/generate:** Generate flashcards from the input text using OpenAI API.
 
 ## Contributing
 
